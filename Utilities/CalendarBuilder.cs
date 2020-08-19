@@ -77,7 +77,7 @@ namespace Utilities
         {
             string calendarHeader = "<table border=\"1\">" +
                         "<tr>" +
-                        "<th id=\"tableMonthHeader\" colspan = \"7\">" + monthsTranslation[date.Month - 1] + Convert.ToString(date.Year) + "</th>" +
+                        "<th id=\"tableMonthHeader\" colspan = \"7\">" + monthsTranslation[date.Month - 1] + " " + Convert.ToString(date.Year) + "</th>" +
                         "</tr><tr>";
             for (int i = 0; i < 7; i++)
             {
